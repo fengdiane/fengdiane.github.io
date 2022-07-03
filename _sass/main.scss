@@ -17,8 +17,7 @@ figcaption {
     color: #747474;
 }
 
-#profile-photo,
-#nature-art-festival-photo {
+.responsive-img {
     max-width: 100%;
 }
 
@@ -39,47 +38,5 @@ figcaption {
 .page {
     width: 90vw;
     max-width: 1400px;
-    margin: 0 auto;
-    margin-top: 5rem;
-}
-
-.col-33 {
-    width: 33.3%;
-    float: left;
-}
-
-.col-50 {
-    width: 50%;
-    float: left;
-}
-
-.col-66 {
-    width: 66.6%;
-    float: left;
-}
-
-$gutter: 40px;
-
-.gutter {
-    margin-left: $gutter / 2;
-    margin-right: $gutter / 2;
-}
-
-.clear {
-    clear: both;
-    display: block;
-}
-
-@media all and (max-width: 800px) {
-    .col-33 {
-        width: 50%;
-    }
-}
-
-@media all and (max-width: 600px) {
-    .col-50,
-    .col-33 {
-        width: 100%;
-        float: none;
-    }
+    margin: 5rem auto 0 auto;
 }
