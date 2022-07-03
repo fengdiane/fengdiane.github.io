@@ -1,15 +1,40 @@
-.col-33 {
-    width: 33.3%;
-    float: left;
+$columnWidth: 100% / 12;
+
+.col-2 {
+    width: $columnWidth * 2;
 }
 
-.col-50 {
-    width: 50%;
-    float: left;
+.col-3 {
+    width: $columnWidth * 3;
 }
 
-.col-66 {
-    width: 66.6%;
+.col-4 {
+    width: $columnWidth * 4;
+}
+
+.col-6 {
+    width: $columnWidth * 6;
+}
+
+.col-8 {
+    width: $columnWidth * 8;
+}
+
+.col-9 {
+    width: $columnWidth * 9;
+}
+
+.col-10 {
+    width: $columnWidth * 10;
+}
+
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-8,
+.col-9,
+.col-10 {
     float: left;
 }
 
@@ -25,16 +50,39 @@ $gutter: 40px;
     display: block;
 }
 
+@media all and (min-width: 1400px) {
+    .col-2-lg {
+        width: $columnWidth * 2;
+    }
+
+    .col-10-lg {
+        width: $columnWidth * 10;
+    }
+}
+
 @media all and (max-width: 800px) {
-    .col-33 {
-        width: 50%;
+    .col-4-md {
+        width: $columnWidth * 4;
+    }
+
+    .col-6-md {
+        width: $columnWidth * 6;
+    }
+
+    .col-8-md {
+        width: $columnWidth * 8;
     }
 }
 
 @media all and (max-width: 600px) {
-    .col-50,
-    .col-33 {
-        width: 100%;
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-6,
+    .col-8,
+    .col-9,
+    .col-10 {
+        width: $columnWidth * 12;
         float: none;
     }
 }
