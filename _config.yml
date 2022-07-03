@@ -1,0 +1,11 @@
+plugins:
+    - jekyll-sitemap
+    - jekyll-seo-tag
+
+exclude:
+    - start.sh
+
+strict_front_matter: true
+livereload: true
+incremental: true
+open_url: true
