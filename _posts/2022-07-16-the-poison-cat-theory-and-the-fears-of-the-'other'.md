@@ -24,6 +24,8 @@ In one version of the Qiang folklore, a woman was found to be a "poison cat" by 
 
 The author Wang Mingke recently replied to my inquiry on translation, explaining that the book is currently being translated into Korean and Japanese, but not in English. Readers can find the book in Chinese in paperback and on Google books.
 
+---
+
 [^1]: Wang Mingke, “A Historical Anthropological Perspective on Surprising Discoveries in the Archaeology of Ancient China”, Procedia Social and Behavioral Sciences 2 (2010) 7392–7398
 [^2]: Wang Mingke, _毒藥貓理論： 恐懼與暴力的社會根源_ (Taiwan: Asian Culture Publishing, 2021)
 [^3]: For elaboration on the connection between crossing boundaries and pollution, please see: Mary Douglas, _Purity and Danger: An Analysis of Concepts of Pollution and Taboo_ (New York: Routledge, ARK edition, 1984; first published in 1966).
