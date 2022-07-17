@@ -2,3 +2,21 @@
 layout: default
 title: Writings
 ---
+
+<ul class="blog-post-items">
+    {% for post in site.posts %}
+    <li class="blog-post-item">
+        <div class="col-3 col-4-md">
+            <div class="gutter">
+                <a href="{{ post.url }}"><img src="{{ post.featured-image }}" class="responsive-img" /></a>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="gutter">
+                <h2 class="writings-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                {{ post.excerpt }}
+            </div>
+        </div>
+    </li>
+    {% endfor %}
+</ul>

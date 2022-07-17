@@ -1,3 +1,10 @@
+defaults:
+    - scope:
+          path: ""
+          type: "posts"
+      values:
+          layout: "post"
+
 plugins:
     - jekyll-sitemap
     - jekyll-seo-tag
@@ -5,7 +12,7 @@ plugins:
 exclude:
     - start.sh
 
+future: true
 strict_front_matter: true
 livereload: true
-incremental: true
 open_url: true

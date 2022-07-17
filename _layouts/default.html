@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Dandan (Diane) Feng's personal profile" />
+        <meta name="description" content="Dan Feng's personal profile" />
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png" />
@@ -11,7 +11,9 @@
         <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css" />
         <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css" />
         <link rel="stylesheet" href="/assets/css/styles.css" />
-        {% seo %}
+        {% if page.layout == "post" %}
+        <link rel="stylesheet" href="/assets/css/post.css" />
+        {% endif %} {% seo %}
     </head>
     <body>
         {% include navigation.html %}

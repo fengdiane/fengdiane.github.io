@@ -23,13 +23,15 @@ figcaption {
 
 .exhibition-items,
 .education-items,
-.experience-items {
+.experience-items,
+.blog-post-items {
     padding: 0;
 }
 
 .exhibition-item,
 .education-item,
-.experience-item {
+.experience-item,
+.blog-post-item {
     list-style: none;
 }
 
@@ -41,4 +43,12 @@ figcaption {
 
 p:first-of-type {
     margin-top: 0;
+}
+
+.writings-post-title {
+    margin-top: 0;
+}
+
+.writings-post-title > a {
+    color: black;
 }
