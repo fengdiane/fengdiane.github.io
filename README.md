@@ -1,4 +1,4 @@
-# Dandan (Diane) Feng's Personal Website
+# Dan Feng's Personal Website
 
 ## Getting Started
 
