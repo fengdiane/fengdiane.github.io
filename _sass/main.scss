@@ -44,3 +44,11 @@ figcaption {
 p:first-of-type {
     margin-top: 0;
 }
+
+.writings-post-title {
+    margin-top: 0;
+}
+
+.writings-post-title > a {
+    color: black;
+}

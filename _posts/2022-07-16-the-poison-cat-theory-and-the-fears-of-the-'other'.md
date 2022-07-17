@@ -1,11 +1,13 @@
 ---
 title: The Poison Cat Theory and the Fears of the "Other"
 tags: poison-cat qiang othering inclusivity demagogues marginalised-women
+
+featured-image: /assets/img/qiang-man-playing-drum.jpg
 ---
 
 When Taiwanese historian Wang Mingke conducted his fieldwork among the Qiang in northwestern Sichuan between 1994 and 2003, he often heard from locals about the folklore of _the Poison Cat_. In these oral lores, there were one or two "poison cats" in every village, primarily women suspected of black magic and poison in their nails. Some believed that when they slept at night, their souls left the bodies and manifested as animals such as cows, horses, or cats, depending on which animal fur they touched in their hidden collection, to startle villagers and cause them to fall off cliff trails. When they grew old and frail, they could only transmorph into cats and contaminate food and drinks with the poison in their fingernails. Some told stories about them flying to the banquets of poison cats to revel, gamble, and feast on human flesh, usually of children and husbands of those who lost in the gambling since most suspected poison cats were women.
 
-| ![Qiang man](/assets/img/qiang-man-playing-drum.jpg)                                                                                                  |
+| ![Qiang man]({{ page.featured-image }})                                                                                                               |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | The inhabitants of the eastern fringe of the Qinghai Tibet Plateau were identified by the Chinese as "the Qiang."[^1] Image by Wan Yuchuan via UNESCO |
 
